@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://yongslish.github.io/post/blog/</loc>
-    <lastmod>2023-05-30T18:02:14+08:00</lastmod>
-  </url><url>
-    <loc>http://yongslish.github.io/</loc>
-    <lastmod>2023-05-30T18:02:14+08:00</lastmod>
-  </url><url>
-    <loc>http://yongslish.github.io/post/</loc>
-    <lastmod>2023-05-30T18:02:14+08:00</lastmod>
-  </url><url>
-    <loc>http://yongslish.github.io/categories/</loc>
-  </url><url>
-    <loc>http://yongslish.github.io/tags/</loc>
-  </url>
+  
+    
+      <url>
+            <loc>http://example.org/post/first/</loc>
+            <lastmod>2023-05-30T18:33:41+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://example.org/</loc>
+            <lastmod>2023-05-30T18:33:41+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://example.org/post/</loc>
+            <lastmod>2023-05-30T18:33:41+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://example.org/post/blog/</loc>
+            <lastmod>2023-05-30T18:02:14+08:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
 </urlset>
