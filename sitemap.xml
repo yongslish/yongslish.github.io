@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-      <url>
-            <loc>http://example.org/post/first/</loc>
-            <lastmod>2023-05-30T18:33:41+08:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://example.org/</loc>
-            <lastmod>2023-05-30T18:33:41+08:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://example.org/post/</loc>
-            <lastmod>2023-05-30T18:33:41+08:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://example.org/post/blog/</loc>
-            <lastmod>2023-05-30T18:02:14+08:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
+  <url>
+    <loc>http://example.org/post/jquery/</loc>
+    <lastmod>2023-05-30T18:02:14+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2023-05-30T18:02:14+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2023-05-30T18:02:14+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/post/java%E5%9F%BA%E7%A1%80%E6%95%B4%E7%90%86/</loc>
+  </url><url>
+    <loc>http://example.org/post/jvm%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+  </url><url>
+    <loc>http://example.org/post/springboot-%E5%B8%B8%E8%A7%81%E7%9A%84%E6%B3%A8%E8%A7%A3/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url>
 </urlset>

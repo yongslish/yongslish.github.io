@@ -6,25 +6,89 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 May 2023 18:33:41 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 18:02:14 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>http://example.org/post/first/</link>
-      <pubDate>Tue, 30 May 2023 18:33:41 +0800</pubDate>
+      <title>Blog</title>
+      <link>http://example.org/post/jquery/</link>
+      <pubDate>Tue, 30 May 2023 18:02:14 +0800</pubDate>
       
-      <guid>http://example.org/post/first/</guid>
-      <description></description>
-      
+      <guid>http://example.org/post/jquery/</guid>
+      <description>JQuery 整理 1. 基础语法 $ &amp;ndash;&amp;gt; window.onload() $ &amp;ndash;&amp;gt; 普通元素转换
+2. 常用选择器 baff basic 基本选择器（
+标签选择器 $(&amp;ldquo;li&amp;rdquo;) id 选择器 $(&amp;quot;#id&amp;quot;) class 选择器 $(&amp;quot;.class&amp;quot;) 并集选择器 $(&amp;ldquo;li,h1,div&amp;rdquo;) 选择所有的 li h1 div 标签 交集选择器 $(&amp;ldquo;li.class&amp;rdquo;) 选择所有 li 标签种 class 为 class 的标签 全局选择器 $(&amp;quot;.&amp;quot;) ） 后代选择器（
+后代选择器 $(&amp;quot;#menu span&amp;quot;) 选择 menu 下的所有 span 元素 子类选择器 $(&amp;ldquo;parent&amp;gt;child&amp;rdquo;) 选取 parent 元素下的 child 元素 相邻选择器$(&amp;ldquo;div+next&amp;rdquo;) 选取紧挨着 div 元素同辈元素 next 元素 同辈选择器 $(&amp;ldquo;li~prev&amp;rdquo;) 选取 li 元素同辈的所有 prev 元素 ） 属性选择器（</description>
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>http://example.org/post/blog/</link>
-      <pubDate>Tue, 30 May 2023 18:02:14 +0800</pubDate>
+      <title></title>
+      <link>http://example.org/post/java%E5%9F%BA%E7%A1%80%E6%95%B4%E7%90%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/blog/</guid>
-      <description> Java基础整理 # </description>
+      <guid>http://example.org/post/java%E5%9F%BA%E7%A1%80%E6%95%B4%E7%90%86/</guid>
+      <description>Java当中的异常
+集合类
+对集合进行排序的方法
+Collections.sort(list)
+反射
+IO
+1. 什么是泛型 定义：泛型的英文是Generics，是指在定义方法、接口或类的时候，不预先指定具体的类型，而使用的时候再指定一个类型的一个特性。
+如果没有泛型，我们想要调用不同类型的集合就需要这样了： IntegerArrayList
+StringArrayList
+FloatArrayList
+LongArrayList 这显然不太好。 泛型就是帮助我们解决这类问题的
+更为官方的定义是：泛型指“参数化类型”。
+2. 如何使用泛型？ 泛型类 泛型类：class name&amp;lt;T1, T2, &amp;hellip;, Tn&amp;gt; { /* &amp;hellip; */ } 单参数泛型类：public class Info {} 多参数泛型类：public class Pair&amp;lt;T, K&amp;gt; {} 实际例子：Java标准库的Map&amp;lt;K, V&amp;gt;就是使用两种泛型类型的例子。它对Key使用一种类型，对Value使用另一种类型。
+泛型接口 public interface Content { T text(); } 两种实现方式：
+实现接口的子类（注意这个子类不是接口，因为接口不能实现接口，所以这个就是具体实现类）明确声明泛型类型
+实现接口的子类不明确声明泛型类型，但是这样就需要在创建对象的时候制定具体的类型 Content gc = new GenericsContent&amp;lt;&amp;gt;(&amp;ldquo;ABC&amp;rdquo;);
+泛型方法 泛型方法是引入其自己的类型参数的方法。泛型方法可以是普通方法、静态方法（注意，静态方法的比较特殊， 在 static 后面）以及构造方法。&amp;ndash;&amp;gt; 可以是任意的方法
+注意：是否拥有泛型方法，与其所在的类是否示泛型没有关系 格式：public T func(T obj) {}
+3. 泛型的特性： 类型擦除（Type Erasure） 上边界 举例子： 无法set和get 泛型命名 很多</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/post/jvm%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
+      <guid>http://example.org/post/jvm%E8%99%9A%E6%8B%9F%E6%9C%BA/</guid>
+      <description>JVM 虚拟机
+1. JVM 内存区域 运行时数据区域
+线程共享 方法区 堆 线程私有 虚拟机栈 本地方法栈 程序计数器 直接内存
+运行时常量池
+字符串常量池
+对象探秘 对象创建 c
+五步骤：
+clihi
+create 类的创建locate 内存的分配初始化零值head 设置对象头init 方法 内存布局 l 对象的访问定位 v 2. 垃圾回收详解 cap -&amp;gt; g
+堆空间的基本结构 c 垃圾收集算法 a 内存分配回收原则 p 垃圾收集器 g </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/post/springboot-%E5%B8%B8%E8%A7%81%E7%9A%84%E6%B3%A8%E8%A7%A3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/post/springboot-%E5%B8%B8%E8%A7%81%E7%9A%84%E6%B3%A8%E8%A7%A3/</guid>
+      <description>bhfecp tja
+SpringBoot 相关 bean 同 @Component 类似的注解如：
+@Autowired，@Repository，@Service
+@Controller，@RestController
+@Scope
+@Configuration @Resource @Qualifier
+http @RequestMapping() 还可以指定属性方法，
+@RequestMapping(value = &amp;ldquo;&amp;rdquo;, method = RequestMethod.GET)
+@RequestMapping(value = &amp;ldquo;&amp;rdquo;, method = RequestMethod.POST)
+@RequestMapping(value = &amp;ldquo;&amp;rdquo;, method = RequestMethod.PUT)
+@RequestMapping(value = &amp;ldquo;&amp;rdquo;, method = RequestMethod.DELETE)
+@GetMapping &amp;hellip;&amp;hellip;
+front end @RequestParam 默认是 required = true 的
+@PathVariable 解析 RESTful 请求当中的 /test/{hi}/{yo}
+@RequestBody 将JSON字符串转为实体类
+configuration 读取配置文件信息：
+@Value 读取 application.xxx 当中的值
+@ConfigurationProperties 可以指定 prefix 属性
+param @Valid 作用在方法上</description>
     </item>
     
   </channel>
